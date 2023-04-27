@@ -1,0 +1,527 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="GameEngine">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="GameEngine\01.Header">
+      <UniqueIdentifier>{a6e20cfe-2fd6-4776-a9b5-c36573968341}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\02.Core">
+      <UniqueIdentifier>{6157167f-c2fd-48af-ad00-469ef7bef813}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\05.Scene">
+      <UniqueIdentifier>{4f2b9a6e-b83c-48ca-a84c-fd77873c75f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\04.Object">
+      <UniqueIdentifier>{8bc28e88-f4ff-45f2-9eed-b34c3ad8007d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\05.Scene\Scene_Main">
+      <UniqueIdentifier>{a45e8bbc-771c-4f23-b28c-265be1949c76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\05.Scene\Scene_Gameover">
+      <UniqueIdentifier>{aa9e58d7-4cb6-47e3-af33-12b2e198efa1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\05.Scene\Scene_Select">
+      <UniqueIdentifier>{7581b4d6-6345-4d55-bfeb-54a2b8284cf1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\05.Scene\Scene_Higher">
+      <UniqueIdentifier>{13303c10-7ce2-44d4-b910-4d48ce1b4874}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\04.Object\Object_Player">
+      <UniqueIdentifier>{2ceec8f8-f9b1-4e3d-8255-ad0ddc5eeac2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\04.Object\Object_Player\Object_Dash">
+      <UniqueIdentifier>{8e313596-f2bb-4ed4-b9d2-a7451cc87c89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\05.Scene\Scene_Sevcon">
+      <UniqueIdentifier>{42e47f99-19aa-466c-9595-7ad078b6f8ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\05.Scene\Scene_Cascade">
+      <UniqueIdentifier>{5de057f1-f11a-41f0-9911-217699e3ec53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\04.Object\Object_Player\Object_Dead">
+      <UniqueIdentifier>{99be33d8-0869-415f-bfe7-7852ac05ae97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\04.Object\Higher">
+      <UniqueIdentifier>{340c53de-ab51-415a-9123-1d7ab378f85d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\04.Object\Higher\Object_Matirx">
+      <UniqueIdentifier>{3ea7b785-61da-4613-a3e9-9b39a9b92e90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\04.Object\Sevcon">
+      <UniqueIdentifier>{df7db925-a91b-45aa-84a1-a13b1af3ced6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\04.Object\Cascade">
+      <UniqueIdentifier>{8827a193-b4f0-40a7-baf6-1e75c2923b58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\04.Object\Higher\Object_Line">
+      <UniqueIdentifier>{240bde38-ebf6-4f19-8831-596adbc3b9db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\04.Object\Higher\Object_Compresion">
+      <UniqueIdentifier>{bf76ca0f-d72b-4e1e-a8c8-b8356395f7b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\04.Object\Sevcon\Object_Snow">
+      <UniqueIdentifier>{8eb3f5b1-f593-4ddf-92bb-387fac811e0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\04.Object\Higher\Object_FlipBox">
+      <UniqueIdentifier>{7bfb4fa7-46f3-47cc-8962-c6d58a233330}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\04.Object\Higher\Object_Beam">
+      <UniqueIdentifier>{d705cd84-6046-4632-9b81-b209b123493d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\04.Object\Higher\Object_Spiral">
+      <UniqueIdentifier>{c53a039a-6575-42a9-b5dd-9101ec3a23ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\04.Object\Higher\Object_Santa">
+      <UniqueIdentifier>{6adecb18-9279-4e5c-a527-2853782798b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\04.Object\Higher\Object_BoxMonster">
+      <UniqueIdentifier>{9a57fada-723b-498c-acbd-8e06aa3598c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\04.Object\Higher\Object_BoxMonster\Object_BoxMonsterTear">
+      <UniqueIdentifier>{0732e2a0-ba84-422c-beff-4415e12ed378}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\04.Object\Higher\Object_Stem">
+      <UniqueIdentifier>{fda6043e-c6ed-415d-b178-6e29316396b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\04.Object\Higher\Object_Satelite">
+      <UniqueIdentifier>{6ba45fc0-f3bb-46b7-b57b-2bac8f793c54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\05.Scene\Scene_Tutorial">
+      <UniqueIdentifier>{53ed92a0-2913-42c0-8d19-45f791348bfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\04.Object\UI">
+      <UniqueIdentifier>{1f6e3a81-2024-4d97-a00d-ebcec2b90a10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\04.Object\UI\Object_MainUI">
+      <UniqueIdentifier>{feec472f-5e47-4e9f-9fb2-d74e3eb95bc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\04.Object\UI\Object_MainUI\Object_Firework">
+      <UniqueIdentifier>{25dd3889-f37b-4c43-a44e-ad1131eb7685}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\04.Object\UI\Object_MainUI\Object_Starfall">
+      <UniqueIdentifier>{b5c1b397-8b43-4629-8130-2889988069e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\04.Object\UI\Object_GameOverUI">
+      <UniqueIdentifier>{7487be9a-7ad1-40b2-a5b8-f3372b8d7b18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\04.Object\UI\Object_SelectUI">
+      <UniqueIdentifier>{d296a18d-079e-439a-bbe2-409cff062df2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\04.Object\UI\Object_TutorialUI">
+      <UniqueIdentifier>{024d5e13-2a3f-48d4-9b70-675c43793968}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\04.Object\Sevcon\Object_Sevcon">
+      <UniqueIdentifier>{367c9deb-8b49-4ee0-9592-83dfa860466d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\04.Object\Sevcon\Object_JustCircle">
+      <UniqueIdentifier>{6bd1ada5-b286-4dba-ac44-e9fdc53bba35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\04.Object\Sevcon\Object_JustCircle">
+      <UniqueIdentifier>{1528378e-1650-4d2d-a0dd-87fbdbab8ddf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\04.Object\Sevcon\Object_Sevcon">
+      <UniqueIdentifier>{6c25d18d-a62f-4648-8fca-0b50398f7dc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\05.Scene\Scene_Clear">
+      <UniqueIdentifier>{9634adf8-c920-4b31-aef3-08fc8acc5ad4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\04.Object\UI\Object_ClearUI">
+      <UniqueIdentifier>{ae20571d-751a-4c0b-8032-5837a86c5904}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\04.Object\UI\Object_ClearUI\Object_ShootingStar">
+      <UniqueIdentifier>{65fbbf83-30fe-4a0e-a1fb-42b984433eb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\03.Manager">
+      <UniqueIdentifier>{7f13b663-d7c0-4c82-86d7-1c8070b4e70f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\03.Manager\KeyManager">
+      <UniqueIdentifier>{765b700f-1c06-472b-a8cc-7c1dc09f51f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\03.Manager\SoundManager">
+      <UniqueIdentifier>{144f7d5b-195d-45fa-b285-0123d726d6ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\03.Manager\TimeManager">
+      <UniqueIdentifier>{2fe7edf6-0746-4684-b6da-6046750d013c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\03.Manager\SceneManager">
+      <UniqueIdentifier>{671ea3e1-56e1-4e51-9069-6d3d7a783cbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\03.Manager\CollisionManager">
+      <UniqueIdentifier>{b0f47795-f28f-461b-8f39-09974c75e878}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\03.Manager\PathManager">
+      <UniqueIdentifier>{ba06ff54-22f8-4baa-b607-76425ba522fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\03.Manager\RenderManager">
+      <UniqueIdentifier>{5a11b249-63a4-4955-9d6c-7ea9118449dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\03.Manager\EventManager">
+      <UniqueIdentifier>{bcbfe4b2-2514-4fcb-9793-4e3f64ea02a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\04.Object\Sevcon\Object_Laser">
+      <UniqueIdentifier>{5af256a9-9aa3-4ef9-9449-598f364d40b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\04.Object\Higher\Obect_Cannon">
+      <UniqueIdentifier>{6f146343-c44a-4da0-8cb2-b403e35eb925}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\04.Object\Sevcon\Object_CircleLine">
+      <UniqueIdentifier>{b16504d0-f148-42ac-802c-df6649a96e12}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>GameEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyMgr.cpp">
+      <Filter>GameEngine\03.Manager\KeyManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Core.cpp">
+      <Filter>GameEngine\02.Core</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeMgr.cpp">
+      <Filter>GameEngine\03.Manager\TimeManager</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundMgr.cpp">
+      <Filter>GameEngine\03.Manager\SoundManager</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderMgr.cpp">
+      <Filter>GameEngine\03.Manager\RenderManager</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneMgr.cpp">
+      <Filter>GameEngine\03.Manager\SceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene_Main.cpp">
+      <Filter>GameEngine\05.Scene\Scene_Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>GameEngine\04.Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>GameEngine\05.Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionMgr.cpp">
+      <Filter>GameEngine\03.Manager\CollisionManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene_Select.cpp">
+      <Filter>GameEngine\05.Scene\Scene_Select</Filter>
+    </ClCompile>
+    <ClCompile Include="Object_MainUI.cpp">
+      <Filter>GameEngine\04.Object\UI\Object_MainUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Object_Starfall.cpp">
+      <Filter>GameEngine\04.Object\UI\Object_MainUI\Object_Starfall</Filter>
+    </ClCompile>
+    <ClCompile Include="Object_SelectUI.cpp">
+      <Filter>GameEngine\04.Object\UI\Object_SelectUI</Filter>
+    </ClCompile>
+    <ClCompile Include="PathMgr.cpp">
+      <Filter>GameEngine\03.Manager\PathManager</Filter>
+    </ClCompile>
+    <ClCompile Include="EventMgr.cpp">
+      <Filter>GameEngine\03.Manager\EventManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene_Higher.cpp">
+      <Filter>GameEngine\05.Scene\Scene_Higher</Filter>
+    </ClCompile>
+    <ClCompile Include="Object_Player.cpp">
+      <Filter>GameEngine\04.Object\Object_Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Object_Dash.cpp">
+      <Filter>GameEngine\04.Object\Object_Player\Object_Dash</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene_Sevcon.cpp">
+      <Filter>GameEngine\05.Scene\Scene_Sevcon</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene_Cascade.cpp">
+      <Filter>GameEngine\05.Scene\Scene_Cascade</Filter>
+    </ClCompile>
+    <ClCompile Include="Object_Dead.cpp">
+      <Filter>GameEngine\04.Object\Object_Player\Object_Dead</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene_GameOver.cpp">
+      <Filter>GameEngine\05.Scene\Scene_Gameover</Filter>
+    </ClCompile>
+    <ClCompile Include="Objct_Firework.cpp">
+      <Filter>GameEngine\04.Object\UI\Object_MainUI\Object_Firework</Filter>
+    </ClCompile>
+    <ClCompile Include="Object_Matrix.cpp">
+      <Filter>GameEngine\04.Object\Higher\Object_Matirx</Filter>
+    </ClCompile>
+    <ClCompile Include="Object_Higher.cpp">
+      <Filter>GameEngine\04.Object\Higher</Filter>
+    </ClCompile>
+    <ClCompile Include="Object_Line.cpp">
+      <Filter>GameEngine\04.Object\Higher\Object_Line</Filter>
+    </ClCompile>
+    <ClCompile Include="Object_GameOverUI.cpp">
+      <Filter>GameEngine\04.Object\UI\Object_GameOverUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Object_Compresion.cpp">
+      <Filter>GameEngine\04.Object\Higher\Object_Compresion</Filter>
+    </ClCompile>
+    <ClCompile Include="Object_BoxMonster.cpp">
+      <Filter>GameEngine\04.Object\Higher\Object_BoxMonster</Filter>
+    </ClCompile>
+    <ClCompile Include="Object_BoxMonsterTear.cpp">
+      <Filter>GameEngine\04.Object\Higher\Object_BoxMonster\Object_BoxMonsterTear</Filter>
+    </ClCompile>
+    <ClCompile Include="Object_Snow.cpp">
+      <Filter>GameEngine\04.Object\Sevcon\Object_Snow</Filter>
+    </ClCompile>
+    <ClCompile Include="Object_Cascade.cpp">
+      <Filter>GameEngine\04.Object\Cascade</Filter>
+    </ClCompile>
+    <ClCompile Include="Object_JustSquare.cpp">
+      <Filter>GameEngine\04.Object\Cascade</Filter>
+    </ClCompile>
+    <ClCompile Include="Function_Circle.cpp">
+      <Filter>GameEngine\04.Object\Cascade</Filter>
+    </ClCompile>
+    <ClCompile Include="Object_FlipBox.cpp">
+      <Filter>GameEngine\04.Object\Higher\Object_FlipBox</Filter>
+    </ClCompile>
+    <ClCompile Include="Object_Beam.cpp">
+      <Filter>GameEngine\04.Object\Higher\Object_Beam</Filter>
+    </ClCompile>
+    <ClCompile Include="Object_Spiral.cpp">
+      <Filter>GameEngine\04.Object\Higher\Object_Spiral</Filter>
+    </ClCompile>
+    <ClCompile Include="Object_Santa.cpp">
+      <Filter>GameEngine\04.Object\Higher\Object_Santa</Filter>
+    </ClCompile>
+    <ClCompile Include="Object_Stem.cpp">
+      <Filter>GameEngine\04.Object\Higher\Object_Stem</Filter>
+    </ClCompile>
+    <ClCompile Include="Object_Satellite.cpp">
+      <Filter>GameEngine\04.Object\Higher\Object_Satelite</Filter>
+    </ClCompile>
+    <ClCompile Include="Object_Rain.cpp">
+      <Filter>GameEngine\04.Object\Cascade</Filter>
+    </ClCompile>
+    <ClCompile Include="Object_Straight.cpp">
+      <Filter>GameEngine\04.Object\Cascade</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene_Tutorial.cpp">
+      <Filter>GameEngine\05.Scene\Scene_Tutorial</Filter>
+    </ClCompile>
+    <ClCompile Include="Object_TutorialUI.cpp">
+      <Filter>GameEngine\04.Object\UI\Object_TutorialUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Object_Sevcon.cpp">
+      <Filter>GameEngine\04.Object\Sevcon\Object_Sevcon</Filter>
+    </ClCompile>
+    <ClCompile Include="Object_JustCircle.cpp">
+      <Filter>GameEngine\04.Object\Sevcon\Object_JustCircle</Filter>
+    </ClCompile>
+    <ClCompile Include="Object_JustCircle.cpp">
+      <Filter>GameEngine\04.Object\Sevcon\Object_JustCircle</Filter>
+    </ClCompile>
+    <ClCompile Include="Object_Sevcon.cpp">
+      <Filter>GameEngine\04.Object\Sevcon\Object_Sevcon</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene_Clear.cpp">
+      <Filter>GameEngine\05.Scene\Scene_Clear</Filter>
+    </ClCompile>
+    <ClCompile Include="Object_ShootingStar.cpp">
+      <Filter>GameEngine\04.Object\UI\Object_ClearUI\Object_ShootingStar</Filter>
+    </ClCompile>
+    <ClCompile Include="Object_ClearUI.cpp">
+      <Filter>GameEngine\04.Object\UI\Object_ClearUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Object_BackgroundFlicker.cpp">
+      <Filter>GameEngine\04.Object\Cascade</Filter>
+    </ClCompile>
+    <ClCompile Include="Function_WindowBounce.cpp">
+      <Filter>GameEngine\04.Object\Cascade</Filter>
+    </ClCompile>
+    <ClCompile Include="Object_Laser.cpp">
+      <Filter>GameEngine\04.Object\Sevcon\Object_Laser</Filter>
+    </ClCompile>
+    <ClCompile Include="Object_NCSquare.cpp">
+      <Filter>GameEngine\04.Object\Cascade</Filter>
+    </ClCompile>
+    <ClCompile Include="Object_Cannon.cpp">
+      <Filter>GameEngine\04.Object\Higher\Obect_Cannon</Filter>
+    </ClCompile>
+    <ClCompile Include="Object_CircleLine.cpp">
+      <Filter>GameEngine\04.Object\Sevcon\Object_CircleLine</Filter>
+    </ClCompile>
+    <ClCompile Include="Object_JustSquare2.cpp">
+      <Filter>GameEngine\04.Object\Cascade</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>GameEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyMgr.h">
+      <Filter>GameEngine\03.Manager\KeyManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Core.h">
+      <Filter>GameEngine\02.Core</Filter>
+    </ClInclude>
+    <ClInclude Include="TimgMgr.h">
+      <Filter>GameEngine\03.Manager\TimeManager</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundMgr.h">
+      <Filter>GameEngine\03.Manager\SoundManager</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderMgr.h">
+      <Filter>GameEngine\03.Manager\RenderManager</Filter>
+    </ClInclude>
+    <ClInclude Include="define.h">
+      <Filter>GameEngine\01.Header</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneMgr.h">
+      <Filter>GameEngine\03.Manager\SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>GameEngine\05.Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>GameEngine\04.Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene_Main.h">
+      <Filter>GameEngine\05.Scene\Scene_Main</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionMgr.h">
+      <Filter>GameEngine\03.Manager\CollisionManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene_Select.h">
+      <Filter>GameEngine\05.Scene\Scene_Select</Filter>
+    </ClInclude>
+    <ClInclude Include="Object_MainUI.h">
+      <Filter>GameEngine\04.Object\UI\Object_MainUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Object_Starfall.h">
+      <Filter>GameEngine\04.Object\UI\Object_MainUI\Object_Starfall</Filter>
+    </ClInclude>
+    <ClInclude Include="Object_SelectUI.h">
+      <Filter>GameEngine\04.Object\UI\Object_SelectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="PathMgr.h">
+      <Filter>GameEngine\03.Manager\PathManager</Filter>
+    </ClInclude>
+    <ClInclude Include="EventMgr.h">
+      <Filter>GameEngine\03.Manager\EventManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene_Higher.h">
+      <Filter>GameEngine\05.Scene\Scene_Higher</Filter>
+    </ClInclude>
+    <ClInclude Include="Object_Player.h">
+      <Filter>GameEngine\04.Object\Object_Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Bug.h">
+      <Filter>GameEngine\01.Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Object_Dash.h">
+      <Filter>GameEngine\04.Object\Object_Player\Object_Dash</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene_Sevcon.h">
+      <Filter>GameEngine\05.Scene\Scene_Sevcon</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene_Cascade.h">
+      <Filter>GameEngine\05.Scene\Scene_Cascade</Filter>
+    </ClInclude>
+    <ClInclude Include="Object_Dead.h">
+      <Filter>GameEngine\04.Object\Object_Player\Object_Dead</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene_GameOver.h">
+      <Filter>GameEngine\05.Scene\Scene_Gameover</Filter>
+    </ClInclude>
+    <ClInclude Include="Object_Firework.h">
+      <Filter>GameEngine\04.Object\UI\Object_MainUI\Object_Firework</Filter>
+    </ClInclude>
+    <ClInclude Include="Object_Matrix.h">
+      <Filter>GameEngine\04.Object\Higher\Object_Matirx</Filter>
+    </ClInclude>
+    <ClInclude Include="Object_Higher.h">
+      <Filter>GameEngine\04.Object\Higher</Filter>
+    </ClInclude>
+    <ClInclude Include="Object_Line.h">
+      <Filter>GameEngine\04.Object\Higher\Object_Line</Filter>
+    </ClInclude>
+    <ClInclude Include="Object_GameOverUI.h">
+      <Filter>GameEngine\04.Object\UI\Object_GameOverUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Object_Compresion.h">
+      <Filter>GameEngine\04.Object\Higher\Object_Compresion</Filter>
+    </ClInclude>
+    <ClInclude Include="Object_BoxMonsterTear.h">
+      <Filter>GameEngine\04.Object\Higher\Object_BoxMonster\Object_BoxMonsterTear</Filter>
+    </ClInclude>
+    <ClInclude Include="Object_Snow.h">
+      <Filter>GameEngine\04.Object\Sevcon\Object_Snow</Filter>
+    </ClInclude>
+    <ClInclude Include="Object_Cascade.h">
+      <Filter>GameEngine\04.Object\Cascade</Filter>
+    </ClInclude>
+    <ClInclude Include="Object_FlipBox.h">
+      <Filter>GameEngine\04.Object\Higher\Object_FlipBox</Filter>
+    </ClInclude>
+    <ClInclude Include="Object_Beam.h">
+      <Filter>GameEngine\04.Object\Higher\Object_Beam</Filter>
+    </ClInclude>
+    <ClInclude Include="Object_Spiral.h">
+      <Filter>GameEngine\04.Object\Higher\Object_Spiral</Filter>
+    </ClInclude>
+    <ClInclude Include="Object_Santa.h">
+      <Filter>GameEngine\04.Object\Higher\Object_Santa</Filter>
+    </ClInclude>
+    <ClInclude Include="Object_Stem.h">
+      <Filter>GameEngine\04.Object\Higher\Object_Stem</Filter>
+    </ClInclude>
+    <ClInclude Include="Object_Satellite.h">
+      <Filter>GameEngine\04.Object\Higher\Object_Satelite</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene_Tutorial.h">
+      <Filter>GameEngine\05.Scene\Scene_Tutorial</Filter>
+    </ClInclude>
+    <ClInclude Include="Object_TutorialUI.h">
+      <Filter>GameEngine\04.Object\UI\Object_TutorialUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Object_Sevcon.h">
+      <Filter>GameEngine\04.Object\Sevcon\Object_Sevcon</Filter>
+    </ClInclude>
+    <ClInclude Include="Object_JustCircle.h">
+      <Filter>GameEngine\04.Object\Sevcon\Object_JustCircle</Filter>
+    </ClInclude>
+    <ClInclude Include="Object_JustCircle.h">
+      <Filter>GameEngine\04.Object\Sevcon\Object_JustCircle</Filter>
+    </ClInclude>
+    <ClInclude Include="Object_Sevcon.h">
+      <Filter>GameEngine\04.Object\Sevcon\Object_Sevcon</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene_Clear.h">
+      <Filter>GameEngine\05.Scene\Scene_Clear</Filter>
+    </ClInclude>
+    <ClInclude Include="Object_ClearUI.h">
+      <Filter>GameEngine\04.Object\UI\Object_ClearUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Function_WindowBounce.h">
+      <Filter>GameEngine\04.Object\Cascade</Filter>
+    </ClInclude>
+    <ClInclude Include="Object_BoxMonster.h">
+      <Filter>GameEngine\04.Object\Higher\Object_Compresion</Filter>
+    </ClInclude>
+    <ClInclude Include="Object_ShootingStar.h">
+      <Filter>GameEngine\04.Object\UI\Object_ClearUI\Object_ShootingStar</Filter>
+    </ClInclude>
+    <ClInclude Include="Object_Laser.h">
+      <Filter>GameEngine\04.Object\Sevcon\Object_Laser</Filter>
+    </ClInclude>
+    <ClInclude Include="Object_Cannon.h">
+      <Filter>GameEngine\04.Object\Higher\Obect_Cannon</Filter>
+    </ClInclude>
+    <ClInclude Include="Object_CircleLine.h">
+      <Filter>GameEngine\04.Object\Sevcon\Object_CircleLine</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

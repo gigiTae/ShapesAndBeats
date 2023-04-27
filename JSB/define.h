@@ -1,0 +1,87 @@
+#pragma once
+
+
+// define
+#define SCREEN_WIDTH  60  // 가로 
+#define SCREEN_LENGTH 30   // 세로
+#define SCREEN_ADJUST 2    // 화면 비율 조정
+
+#define SCENE_OBJ_ARR_SIZE 1000 // 씬의 오브젝트 배열 크기
+
+#define ADD_OBJECT_ARR_SIZE 100 // 이벤트 매니져에서 사용
+
+// enum
+typedef enum COLOR
+{
+	BLACK,		 //  0
+	DARK_BLUE,	 //  1
+	DARK_GREEN,	 //  2
+	DARK_SKYBLUE,//  3
+	DARK_RED,	 //  4
+	DARK_VIOLET, //  5
+	DARK_YELLOW, //  6
+	GRAY,		 //  7
+	DARK_GRAY,	 //  8
+	BLUE,		 //  9
+	GREEN,		 // 10
+	SKYBLUE,	 // 11
+	RED,		 // 12
+	VIOLET,		 // 13
+	YELLOW,		 // 14
+	WHITE,		 // 15
+}COLOR;
+
+enum SCENE_TYPE
+{
+	SCENE_MAIN, 
+	SCENE_TUTORIAL,
+	SCENE_SELECT,  
+	SCENE_HiGHER, 
+	SCENE_CASCADE,
+	SCENE_SEVCON,
+	SCENE_GAMEOVER, 
+	SCENE_CLEAR,
+
+	SCNEN_TYPE_END, 
+
+};
+
+enum COLLISION
+{
+	ON_COLLISION,
+	NONE_COLLISION,
+};
+
+enum SOUNDNUMBER
+{
+	MAINSCENE,
+	TUTORIAL,
+	INTRO,
+	ENDING,
+
+	CASCCADE,
+	PV_CASCCADE,
+	HIGHER,
+	PV_HIGHER,
+	SEVCON,
+	PV_SEVCON,
+
+	// EFFECT
+	CLICK1,
+	CLICK2,
+	DIE,
+	HIT,
+
+	// 끝
+	SOUND_END,
+};
+
+enum PlAYER_STATE
+{
+	PLAYER_DEAFULT,
+	PLAYER_MOVE,
+	PLAYER_DASH,
+	PLAYER_HIT,
+	PLAYER_DEAD,
+	PLAYER_GOD,
+};

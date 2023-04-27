@@ -1,0 +1,89 @@
+﻿  CollisionMgr.cpp
+  EventMgr.cpp
+  Function_WindowBounce.cpp
+  KeyMgr.cpp
+  main.cpp
+  Core.cpp
+  Objct_Firework.cpp
+C:\Users\PC\Desktop\sd\5_Proejct\JSB\JSB\Objct_Firework.cpp(32,15): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Object.cpp
+  Object_BackgroundFlicker.cpp
+  Object_Beam.cpp
+  Object_BoxMonster.cpp
+  Object_BoxMonsterTear.cpp
+  Object_Cannon.cpp
+  Object_Cascade.cpp
+  Function_Circle.cpp
+  Object_CircleLine.cpp
+  Object_ClearUI.cpp
+  Object_Compresion.cpp
+  Object_Dash.cpp
+  Object_Dead.cpp
+  Object_FlipBox.cpp
+  Object_GameOverUI.cpp
+  Object_Higher.cpp
+  Object_JustCircle.cpp
+C:\Users\PC\Desktop\sd\5_Proejct\JSB\JSB\Object_JustCircle.cpp(18,17): warning C4244: '+=': 'unsigned __int64'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\PC\Desktop\sd\5_Proejct\JSB\JSB\Object_JustCircle.cpp(28,94): warning C4244: '인수': 'double'에서 'short'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\PC\Desktop\sd\5_Proejct\JSB\JSB\Object_JustCircle.cpp(28,51): warning C4244: '인수': 'double'에서 'short'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Object_JustSquare.cpp
+  Object_JustSquare2.cpp
+  Object_Laser.cpp
+  Object_Line.cpp
+  Object_Matrix.cpp
+  Object_NCSquare.cpp
+  Object_Player.cpp
+  Object_MainUI.cpp
+  Object_Rain.cpp
+  Object_Santa.cpp
+  Object_Satellite.cpp
+C:\Users\PC\Desktop\sd\5_Proejct\JSB\JSB\Object_Satellite.cpp(19,17): warning C4244: '+=': 'unsigned __int64'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\PC\Desktop\sd\5_Proejct\JSB\JSB\Object_Satellite.cpp(31,82): warning C4244: '인수': 'double'에서 'short'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\PC\Desktop\sd\5_Proejct\JSB\JSB\Object_Satellite.cpp(31,45): warning C4244: '인수': 'double'에서 'short'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Object_SelectUI.cpp
+  Object_Sevcon.cpp
+  Object_ShootingStar.cpp
+  Object_Snow.cpp
+  Object_Spiral.cpp
+  Object_Starfall.cpp
+  Object_Stem.cpp
+  Object_Straight.cpp
+  Object_TutorialUI.cpp
+  PathMgr.cpp
+  RenderMgr.cpp
+  Scene.cpp
+  SceneMgr.cpp
+  Scene_Cascade.cpp
+  Scene_Clear.cpp
+  Scene_GameOver.cpp
+  Scene_Higher.cpp
+  Scene_Main.cpp
+  Scene_Select.cpp
+  Scene_Sevcon.cpp
+  Scene_Tutorial.cpp
+  SoundMgr.cpp
+  TimeMgr.cpp
+C:\Users\PC\Desktop\sd\5_Proejct\JSB\JSB\TimeMgr.cpp(13,12): warning C4244: '인수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+LINK : warning C4727: 타임스탬프가 동일한 c:\users\pc\desktop\sd\5_proejct\jsb\jsb\x64\release\jsb.pch PCH가 c:\users\pc\desktop\sd\5_proejct\jsb\jsb\x64\release\keymgr.obj 및 c:\users\pc\desktop\sd\5_proejct\jsb\jsb\x64\release\function_windowbounce.obj에 있습니다.  첫 번째 PCH를 사용합니다.
+LINK : warning C4727: 타임스탬프가 동일한 c:\users\pc\desktop\sd\5_proejct\jsb\jsb\x64\release\jsb.pch PCH가 c:\users\pc\desktop\sd\5_proejct\jsb\jsb\x64\release\objct_firework.obj 및 c:\users\pc\desktop\sd\5_proejct\jsb\jsb\x64\release\core.obj에 있습니다.  첫 번째 PCH를 사용합니다.
+LINK : warning C4727: 타임스탬프가 동일한 c:\users\pc\desktop\sd\5_proejct\jsb\jsb\x64\release\jsb.pch PCH가 c:\users\pc\desktop\sd\5_proejct\jsb\jsb\x64\release\object_boxmonster.obj 및 c:\users\pc\desktop\sd\5_proejct\jsb\jsb\x64\release\object_beam.obj에 있습니다.  첫 번째 PCH를 사용합니다.
+LINK : warning C4727: 타임스탬프가 동일한 c:\users\pc\desktop\sd\5_proejct\jsb\jsb\x64\release\jsb.pch PCH가 c:\users\pc\desktop\sd\5_proejct\jsb\jsb\x64\release\object_cascade.obj 및 c:\users\pc\desktop\sd\5_proejct\jsb\jsb\x64\release\object_cannon.obj에 있습니다.  첫 번째 PCH를 사용합니다.
+LINK : warning C4727: 타임스탬프가 동일한 c:\users\pc\desktop\sd\5_proejct\jsb\jsb\x64\release\jsb.pch PCH가 c:\users\pc\desktop\sd\5_proejct\jsb\jsb\x64\release\object_clearui.obj 및 c:\users\pc\desktop\sd\5_proejct\jsb\jsb\x64\release\object_circleline.obj에 있습니다.  첫 번째 PCH를 사용합니다.
+LINK : warning C4727: 타임스탬프가 동일한 c:\users\pc\desktop\sd\5_proejct\jsb\jsb\x64\release\jsb.pch PCH가 c:\users\pc\desktop\sd\5_proejct\jsb\jsb\x64\release\object_flipbox.obj 및 c:\users\pc\desktop\sd\5_proejct\jsb\jsb\x64\release\object_dead.obj에 있습니다.  첫 번째 PCH를 사용합니다.
+LINK : warning C4727: 타임스탬프가 동일한 c:\users\pc\desktop\sd\5_proejct\jsb\jsb\x64\release\jsb.pch PCH가 c:\users\pc\desktop\sd\5_proejct\jsb\jsb\x64\release\object_justcircle.obj 및 c:\users\pc\desktop\sd\5_proejct\jsb\jsb\x64\release\object_higher.obj에 있습니다.  첫 번째 PCH를 사용합니다.
+LINK : warning C4727: 타임스탬프가 동일한 c:\users\pc\desktop\sd\5_proejct\jsb\jsb\x64\release\jsb.pch PCH가 c:\users\pc\desktop\sd\5_proejct\jsb\jsb\x64\release\object_laser.obj 및 c:\users\pc\desktop\sd\5_proejct\jsb\jsb\x64\release\object_justsquare2.obj에 있습니다.  첫 번째 PCH를 사용합니다.
+LINK : warning C4727: 타임스탬프가 동일한 c:\users\pc\desktop\sd\5_proejct\jsb\jsb\x64\release\jsb.pch PCH가 c:\users\pc\desktop\sd\5_proejct\jsb\jsb\x64\release\object_ncsquare.obj 및 c:\users\pc\desktop\sd\5_proejct\jsb\jsb\x64\release\object_matrix.obj에 있습니다.  첫 번째 PCH를 사용합니다.
+LINK : warning C4727: 타임스탬프가 동일한 c:\users\pc\desktop\sd\5_proejct\jsb\jsb\x64\release\jsb.pch PCH가 c:\users\pc\desktop\sd\5_proejct\jsb\jsb\x64\release\object_rain.obj 및 c:\users\pc\desktop\sd\5_proejct\jsb\jsb\x64\release\object_mainui.obj에 있습니다.  첫 번째 PCH를 사용합니다.
+LINK : warning C4727: 타임스탬프가 동일한 c:\users\pc\desktop\sd\5_proejct\jsb\jsb\x64\release\jsb.pch PCH가 c:\users\pc\desktop\sd\5_proejct\jsb\jsb\x64\release\object_selectui.obj 및 c:\users\pc\desktop\sd\5_proejct\jsb\jsb\x64\release\object_satellite.obj에 있습니다.  첫 번째 PCH를 사용합니다.
+LINK : warning C4727: 타임스탬프가 동일한 c:\users\pc\desktop\sd\5_proejct\jsb\jsb\x64\release\jsb.pch PCH가 c:\users\pc\desktop\sd\5_proejct\jsb\jsb\x64\release\object_snow.obj 및 c:\users\pc\desktop\sd\5_proejct\jsb\jsb\x64\release\object_shootingstar.obj에 있습니다.  첫 번째 PCH를 사용합니다.
+LINK : warning C4727: 타임스탬프가 동일한 c:\users\pc\desktop\sd\5_proejct\jsb\jsb\x64\release\jsb.pch PCH가 c:\users\pc\desktop\sd\5_proejct\jsb\jsb\x64\release\object_stem.obj 및 c:\users\pc\desktop\sd\5_proejct\jsb\jsb\x64\release\object_starfall.obj에 있습니다.  첫 번째 PCH를 사용합니다.
+LINK : warning C4727: 타임스탬프가 동일한 c:\users\pc\desktop\sd\5_proejct\jsb\jsb\x64\release\jsb.pch PCH가 c:\users\pc\desktop\sd\5_proejct\jsb\jsb\x64\release\pathmgr.obj 및 c:\users\pc\desktop\sd\5_proejct\jsb\jsb\x64\release\object_tutorialui.obj에 있습니다.  첫 번째 PCH를 사용합니다.
+LINK : warning C4727: 타임스탬프가 동일한 c:\users\pc\desktop\sd\5_proejct\jsb\jsb\x64\release\jsb.pch PCH가 c:\users\pc\desktop\sd\5_proejct\jsb\jsb\x64\release\scenemgr.obj 및 c:\users\pc\desktop\sd\5_proejct\jsb\jsb\x64\release\scene.obj에 있습니다.  첫 번째 PCH를 사용합니다.
+LINK : warning C4727: 타임스탬프가 동일한 c:\users\pc\desktop\sd\5_proejct\jsb\jsb\x64\release\jsb.pch PCH가 c:\users\pc\desktop\sd\5_proejct\jsb\jsb\x64\release\scene_gameover.obj 및 c:\users\pc\desktop\sd\5_proejct\jsb\jsb\x64\release\scene_clear.obj에 있습니다.  첫 번째 PCH를 사용합니다.
+LINK : warning C4727: 타임스탬프가 동일한 c:\users\pc\desktop\sd\5_proejct\jsb\jsb\x64\release\jsb.pch PCH가 c:\users\pc\desktop\sd\5_proejct\jsb\jsb\x64\release\scene_select.obj 및 c:\users\pc\desktop\sd\5_proejct\jsb\jsb\x64\release\scene_main.obj에 있습니다.  첫 번째 PCH를 사용합니다.
+LINK : warning C4727: 타임스탬프가 동일한 c:\users\pc\desktop\sd\5_proejct\jsb\jsb\x64\release\jsb.pch PCH가 c:\users\pc\desktop\sd\5_proejct\jsb\jsb\x64\release\soundmgr.obj 및 c:\users\pc\desktop\sd\5_proejct\jsb\jsb\x64\release\scene_tutorial.obj에 있습니다.  첫 번째 PCH를 사용합니다.
+  코드를 생성하고 있습니다.
+  Previous IPDB not found, fall back to full compilation.
+  All 171 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  코드를 생성했습니다.
+  JSB.vcxproj -> C:\Users\PC\Desktop\sd\5_Proejct\JSB\x64\Release\JSB.exe
